@@ -1,17 +1,18 @@
 "use client"
 import React from 'react'
 import Header from '@/Components/Header'
-const page = () => {
- 
+import Footer from '@/Components/footer'
+function page() {
+
   return (
     <>
-      
+
       <div className='bg-gray-800 w-screen h-screen fixed'>
 
-        <Header/>
-
+        <Header />
+        <Footer/>
       </div>
-      
+
     </>
   )
 }
