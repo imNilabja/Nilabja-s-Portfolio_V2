@@ -6,9 +6,9 @@
             <>
                 <div className='flex w-screen h-14 relative'>
 
-                    <p className='w-[200px] ml-10 mt-4 font-semibold text-white italic font-serif'>Nilabja's Portfolio</p>
+                    <p className='w-[10rem] ml-10 mt-4 font-semibold text-white italic font-serif'>Nilabja's Portfolio</p>
 
-                    <div className=' italic font-serif flex justify-between w-[350px] left-[600px] relative text-white text-m mt-4'>
+                    <div className=' italic font-serif flex justify-between w-[20rem] left-[40rem] relative text-white text-m mt-4'>
                             
                         
                     <Link href='app/page.js' className=''>Home</Link>
