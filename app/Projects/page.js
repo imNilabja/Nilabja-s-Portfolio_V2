@@ -7,7 +7,7 @@ const page = () => {
   return (
     <>
 
-      <div className='bg-gray-800 relative min-h-screen flex flex-col pb-[400px] justify-center overflow-hidden' >
+      <div className='bg-gray-800 relative min-h-screen min-w-screen flex flex-col pb-[400px] pr-1 justify-center' >
 
         <div className='relative top-[-500px]'></div>
         <Header />
