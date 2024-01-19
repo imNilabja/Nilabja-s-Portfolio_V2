@@ -27,5 +27,4 @@ const ProjectPoints = (props) => {
         </>
     )
 }
-
 export default ProjectPoints
