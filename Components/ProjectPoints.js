@@ -17,7 +17,11 @@ const ProjectPoints = (props) => {
                         Description:
                     </span>
                     <br></br>
-                    {desc}
+                    <div className='my-4'>
+
+
+                        {desc}
+                    </div>
                 </div>
                 <br></br>
                 {download ? <a href={download} target="_blank"><button className='border border-black rounded-[20px] px-3 py-2 text-white font-bold bg-green-600'>View Report</button></a> : null}
