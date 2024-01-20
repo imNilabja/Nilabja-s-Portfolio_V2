@@ -8,7 +8,7 @@ const Header = () => {
 
                 <p className='w-[200px] ml-10 mt-5 font-semibold text-white italic font-serif'>Nilabja's Portfolio</p>
 
-                <div className=' italic font-serif flex justify-evenly w-[450px] h-[60px] ml-auto relative text-white text-m mt-2 py-3'>
+                <div className=' italic font-serif flex justify-evenly w-[450px] h-[60px] ml-auto mr-2 relative text-white text-m mt-2 py-3'>
 
 
                     <Link href='/Projects' className='my-1'>Project</Link>
