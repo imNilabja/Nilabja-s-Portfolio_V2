@@ -13,7 +13,7 @@ const page = () => {
         
         <Header />
 
-        <p className='text-white font-semibold font-mono w-14 text-4xl left-[540px] top-[50px] relative'>PROJECTS</p>
+        <p className='text-white font-semibold font-mono w-14 text-4xl left-[-60px] ml-auto mr-auto top-[50px] relative'>PROJECTS</p>
         {/* <ProjectPoints Topic_name="" desc=" " /> */}
 
 

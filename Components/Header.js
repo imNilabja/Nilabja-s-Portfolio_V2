@@ -4,11 +4,11 @@ const Header = () => {
 
     return (
         <>
-            <div className='flex w-screen h-14 relative'>
+            <div className='flex min-w-[100px] h-14 relative'>
 
                 <p className='w-[200px] ml-10 mt-4 font-semibold text-white italic font-serif'>Nilabja's Portfolio</p>
 
-                <div className=' italic font-serif flex justify-between w-[350px] left-[600px] relative text-white text-m mt-4'>
+                <div className=' italic font-serif flex justify-evenly  w-[450px] ml-auto relative text-white text-m mt-4'>
                         
                     
                 

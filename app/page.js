@@ -7,7 +7,7 @@ function page() {
   return (
     <>
 
-      <div className='bg-gray-800 w-screen h-screen fixed'>
+      <div className='bg-gray-800 w-screen h-screen absolute'>
 
         <Header />
         <Footer/>

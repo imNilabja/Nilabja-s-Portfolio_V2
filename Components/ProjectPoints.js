@@ -6,8 +6,8 @@ const ProjectPoints = (props) => {
     console.log(download)
     return (
         <>
-            <div className='bg-red-600 max-w-[950px] min-h-[100px] relative left-[160px] top-[100px] rounded-[25px] p-4 flex-col justify-center'>
-                <p className='bg-orange-600 text-white font-semibold text-2xl max-w-[900px] min-h-[50px] py-3 px-4 rounded-[20px] mr-4 left-[9px] relative'>
+            <div className='bg-red-600 max-w-[950px] min-w-[200px min-h-[100px] mr-auto relative ml-auto top-[100px] rounded-[25px] p-4 flex-col justify-center'>
+                <p className='bg-orange-600 text-white font-semibold mr-auto text-2xl max-w-[900px] min-h-[50px] py-3 px-4 rounded-[20px] relative'>
                     {Topic_name}
                 </p>
                 <br></br>
@@ -20,7 +20,7 @@ const ProjectPoints = (props) => {
                     {desc}
                 </div>
                 <br></br>
-                {download? <a href={download} target="_blank"><button className='border border-black rounded-[20px] px-3 py-2 text-white font-bold bg-green-600'>View Report</button></a>:null }
+                {download ? <a href={download} target="_blank"><button className='border border-black rounded-[20px] px-3 py-2 text-white font-bold bg-green-600'>View Report</button></a> : null}
 
             </div>
 
