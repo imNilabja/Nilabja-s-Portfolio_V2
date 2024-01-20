@@ -6,7 +6,7 @@ const ProjectPoints = (props) => {
     console.log(download)
     return (
         <>
-            <div className='bg-red-600 max-w-[950px] min-w-[10px] min-h-[100px] mr-auto relative ml-auto top-[100px] rounded-[25px] mr-2 ml-2 p-4 flex-col justify-center'>
+            <div className='bg-red-600 max-w-[950px] min-w-[10px] min-h-[100px] mr-auto relative ml-auto top-[100px] rounded-[25px] p-4 flex-col justify-center'>
                 <p className='bg-orange-600 text-white font-semibold ml-auto mr-auto text-2xl max-w-[900px] min-h-[50px] py-3 px-4 rounded-[20px] relative'>
                     {Topic_name}
                 </p>

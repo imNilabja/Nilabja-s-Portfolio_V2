@@ -7,3 +7,6 @@
   width: 0px;
 }
 
+::selection{
+  color: rgb(241, 203, 145);
+}
