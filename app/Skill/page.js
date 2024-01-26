@@ -12,7 +12,7 @@ const page = () => {
 
         <Header />
         
-        <div className='bg-red-600 flex-row justify-center sm:flex-row min-h-[50px] min-w-[350px] max-w-screen relative m-auto mt-10 p-[20px] mb-10'>
+        <div className='bg-red-600 flex-row justify-center sm:flex-row min-h-[50px] min-w-[350px] max-w-screen relative ml-auto mr-auto mt-10 p-[20px] mb-10'>
        
           <SkillCircle />
           <SkillCircle />

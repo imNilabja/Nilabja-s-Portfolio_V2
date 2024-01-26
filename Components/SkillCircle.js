@@ -15,7 +15,7 @@ const SkillCircle = () => {
         
          </div>
 
-         <div className='bg-blue-400 m-auto min-h-[180px] min-w-[300px] mt-4 relative'>
+         <div className='bg-blue-400 m-auto min-h-[180px] min-w-[200px] mt-4 relative'>
         <div className='m-auto min-h-[20px] min-w-[100px] p-3 '>
                 
         </div>
