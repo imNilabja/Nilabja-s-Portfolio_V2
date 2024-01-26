@@ -11,6 +11,8 @@ const page = () => {
     <div className='bg-gray-800 relative min-h-screen min-w-screen flex flex-col pr-1 overflow-hidden'>
  
         <Header />
+
+        <p className='text-white font-semibold font-mono w-14 text-4xl left-[-40px] ml-auto mr-auto top-[50px] mb-28 relative'>SKILLS</p>
         
         <div className='flex-row justify-center sm:flex-row min-h-[50px] min-w-[100px] max-w-screen relative ml-4 mr-4 mt-10 p-[20px] mb-10'>
           {/* skill add template-><SkillCircle img="/Java-Logo.png" h="1000" w="1000" mt="8" desc=""/> */}
