@@ -12,8 +12,8 @@ const SkillCircle = (props) => {
 
 
         <div className='bg-orange-400 m-7 h-[220px] w-[220px] relative rounded-[200px] overflow-hidden mr-10'>
-          <div className='m-auto min-h-[20px] min-w-[100px] '>
-            <Image src={img} width={w} height={h} className={`mt-${mt}`}></Image>
+          <div className='min-h-[20px] min-w-[100px] '>
+            <Image src={img} width={w} height={h} className={`relative top-[${mt}px]`}></Image>
           </div>
 
         </div>
