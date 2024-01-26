@@ -8,7 +8,7 @@ const SkillCircle = () => {
       <div className='flex justify-center flex-col sm:flex-row mr-auto ml-auto'>
         
 
-      <div className='bg-orange-400 m-7 min-h-[200px] min-w-[200px] relative rounded-[200px] overflow-hidden mr-10'>
+      <div className='bg-orange-400 m-7 h-[220px] w-[220px] relative rounded-[200px] overflow-hidden mr-10'>
         <div className='m-auto min-h-[20px] min-w-[100px] p-3 '>
                 
         </div>
