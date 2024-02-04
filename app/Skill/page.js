@@ -24,7 +24,7 @@ const page = () => {
 
           <SkillCircle img="/next.png" h="180" w="180" mt="0px" desc="I am a beginner familiar with Next.js, a React framework. Eager to delve into its capabilities for building efficient and dynamic web applications. Excited to explore the fundamentals, leverage server-side rendering, and harness the power of React components to create seamless user experiences. Ready to embark on the journey of mastering Next.js and expanding my skills in web development." />
 
-
+          <SkillCircle img="/c_lang.png" h="200" w="200" mt="50px" desc="I have knowledge of the C programming language, acquired during my college curriculum. I'm familiar with fundamental concepts, including variables, loops, functions, and data structures like trees. My understanding encompasses both theoretical concepts and practical applications. While I may not have exhaustive expertise, I possess a foundational understanding of C programming, providing a basis for further learning and application in software development." />
 
 
 
