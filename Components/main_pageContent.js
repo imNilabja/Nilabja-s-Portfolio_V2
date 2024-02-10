@@ -1,9 +1,20 @@
 import React from 'react'
+import Image from 'next/image';
 
 const main_pageContent = () => {
   return (
     <>
-      <div className='w-[600px] mr-auto h-[400px] ml-auto text-white font-semibold text-4xl relative top-40 justify-centers p-2 mt-5 italic font-serif'>Hi,<br></br> I am Nilabja Nayan<br></br> Goswami</div> 
+      <div className='w-[600px] mr-auto h-[400px] ml-auto relative flex-col justify-center'>
+        <Image src="/star.png" width={2000} height={2000} className='absolute top-[40px] left-[250px] w-full opacity-50 rounded-xl' />
+        <Image src="/star.png" width={2000} height={2000} className='absolute top-[40px] left-[-250px] w-full opacity-50 rounded-xl' />
+
+
+        <div className=' text-white font-semibold text-4xl relative  top-40 p-2 mt-5 italic font-serif z-50'>Hi, I am Nilabja
+          <br></br>
+          <div className='text-xl'>A Software Engineer</div>
+        </div>
+        <Image src="/coding.png" width={500} height={500} className='absolute top-[-10px] mt-auto w-full opacity-30 rounded-xl' />
+      </div>
     </>
   )
 }
