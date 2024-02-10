@@ -15,7 +15,7 @@ function page() {
         <Header />
 
        <Main/>
-        <Footer/>
+  
       </div>
 
     </>
