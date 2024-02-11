@@ -6,8 +6,10 @@ const Header = () => {
         <>
             <div className='flex min-w-[100px] h-14 relative'>
 
-                <p className='w-[200px] ml-7 mt-5 font-semibold text-white italic font-serif'>Nilabja's Portfolio</p>
-
+                <Link href='/Home' className='w-[200px] ml-5 mr-2 mt-5 font-semibold text-white italic font-serif'>
+                    <p >Nilabja's Portfolio</p>
+                </Link>
+                
                 <div className=' italic font-serif flex justify-evenly w-[450px] h-[60px] ml-auto mr-2 relative text-white text-m mt-2 py-3'>
 
 
