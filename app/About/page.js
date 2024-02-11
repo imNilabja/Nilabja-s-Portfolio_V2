@@ -11,7 +11,7 @@ const page = () => {
 
         <Header />
         <p className='text-white font-semibold font-mono w-14 text-4xl left-[-40px] ml-auto mr-auto top-[50px] mb-28 relative'>ABOUT</p>
-      <p className=' border-s-white text-white font-semibold ml-auto mr-auto text-lg min-w-[40px] max-w-[900px] min-h-[50px] py-3 px-4 rounded-[20px] relative'>
+      <p className=' border-s-white text-yellow-200 font-semibold ml-auto mr-auto text-lg min-w-[40px] max-w-[900px] min-h-[50px] py-3 px-4 rounded-[20px] relative'>
       Hello! I'm Nilabja Nayan Goswami, a passionate and driven individual with a keen interest in technology and innovation. Currently pursuing my B.Tech in Electronics & Telecommunication Engineering from Kalinga Institute of Industrial Technology, I thrive on challenges that push me to explore new horizons.
 
 With a solid foundation in web development, data structures, algorithms, and object-oriented programming, I am adept at leveraging languages such as Java, C/C++, and JavaScript to create robust and efficient solutions. My technical toolkit includes Next.js, ReactJS, Bootstrap, TailwindCSS, Postman, Git, and Github, among others.
