@@ -4,7 +4,7 @@ import Image from 'next/image';
 const main_pageContent = () => {
   return (
     <>
-      <div className='w-[600px] mr-auto h-[400px] ml-auto relative flex-col justify-center'>
+            <div className='w-[600px] mr-auto h-[400px] ml-auto relative flex-col justify-center'>
         {/* <Image src="/star.png" width={2000} height={2000} className='absolute top-[40px] left-[250px] w-full opacity-50 rounded-xl' />
         <Image src="/star.png" width={2000} height={2000} className='absolute top-[40px] left-[-250px] w-full opacity-50 rounded-xl' /> */}
 
