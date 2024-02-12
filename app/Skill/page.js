@@ -25,7 +25,12 @@ const page = () => {
           <SkillCircle img="/next.png" h="180" w="180" mt="0px" desc="I am a beginner familiar with Next.js, a React framework. Eager to delve into its capabilities for building efficient and dynamic web applications. Excited to explore the fundamentals, leverage server-side rendering, and harness the power of React components to create seamless user experiences. Ready to embark on the journey of mastering Next.js and expanding my skills in web development." />
 
           <SkillCircle img="/c_lang.png" h="200" w="200" mt="50px" desc="I have knowledge of the C programming language, acquired during my college curriculum. I'm familiar with fundamental concepts, including variables, loops, functions, and data structures like trees. My understanding encompasses both theoretical concepts and practical applications. While I may not have exhaustive expertise, I possess a foundational understanding of C programming, providing a basis for further learning and application in software development." />
+        
+          <SkillCircle img="/tailwind.png" h="1000" w="1000" mt="8" desc="I'm proficient in Tailwind CSS, a utility-first CSS framework that enables rapid UI development with pre-defined classes. It streamlines styling by providing a comprehensive set of utility classes, allowing for efficient and maintainable code. With Tailwind, I can swiftly create responsive and customizable designs without the need for extensive CSS. Its flexibility empowers me to craft sleek interfaces tailored to specific project requirements, ensuring a seamless user experience." />
 
+          <SkillCircle img="/RegEx.png" h="1000" w="1000" mt="8" desc="I possess expertise in regular expressions (regex), a powerful tool for pattern matching and text manipulation tasks. With regex, I can efficiently search, extract, and manipulate strings based on specific patterns. Whether it's parsing data, validating input, or replacing text, regex enables precise and flexible text processing, making it an indispensable skill in programming and data processing tasks." />
+
+          <SkillCircle img="/bootstrap.png" h="1000" w="1000" mt="8" desc="I know Bootstrap, a popular front-end framework for building responsive and mobile-first websites. It provides pre-designed templates and components such as grids, buttons, and forms, simplifying web development. With its extensive documentation and flexibility, Bootstrap enables efficient creation of modern and visually appealing user interfaces." />
 
 
         </div>
