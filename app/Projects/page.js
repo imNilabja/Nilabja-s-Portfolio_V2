@@ -23,8 +23,8 @@ const page = () => {
         
         
        
-        <ProjectPoints Topic_name="AI ENABLED FINTECH B2B INVOICE MANAGEMENT APPLICATION" desc="
-AI Enabled Fintech B2B Invoice Management Application helps companies automate tasks related to invoice processing. B2B means business to business transaction. In this ideal world, the buyer business should payback within the stipulated time which is the Payment Term. However the buyer business hardly or infrequently pays within their established time frame ." download="https://drive.google.com/file/d/16V-ytKUF5Edd2lrp3K3MyBYYb1a1VGTA/view?usp=sharing" />
+        <ProjectPoints Topic_name="AI ENABLED FINTECH B2B INVOICE MANAGEMENT APPLICATION" desc="The AI-enabled Fintech B2B Invoice Management Application streamlines invoice processing, leveraging a Machine Learning Model for accurate payment date prediction. It features a Receivables Dashboard for intuitive data visualization and management functionalities like ADD, EDIT, DELETE, and ADVANCE SEARCH. The application utilizes Eclipse IDE, TomCat Server, MySQL Workbench, and Jupyter Notebook. With front-end technologies including HTML, CSS, JavaScript, and React, and back-end components such as Java, Servlets, JDBC Connections, and MySQL Workbench, it ensures seamless navigation and robust functionality.
+" download="https://drive.google.com/file/d/16V-ytKUF5Edd2lrp3K3MyBYYb1a1VGTA/view?usp=sharing" />
 
 
 

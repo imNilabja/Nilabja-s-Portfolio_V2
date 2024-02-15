@@ -12,7 +12,7 @@ const ProjectPoints = (props) => {
                 </p>
                 <br></br>
 
-                <div className='bg-orange-600 text-white font-semibold mr-auto ml-auto text-2xl max-w-[900px] min-h-[20px] py-3 px-4 rounded-[20px] relative'>
+                <div className='bg-orange-600 text-white font-semibold mr-auto ml-auto text-xl max-w-[900px] min-h-[20px] py-3 px-4 rounded-[20px] relative'>
                     <span className='text-black'>
                         Description:
                     </span>
