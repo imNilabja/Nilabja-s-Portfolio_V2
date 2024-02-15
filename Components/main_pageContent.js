@@ -13,7 +13,7 @@ const main_pageContent = () => {
         </div>
         <Image src="/coding.png" width={500} height={500} className='absolute top-[-10px] mt-auto w-full opacity-20 rounded-xl' />
         <div className='w-52 h-52 relative left-[550px] top-[250px]'>
-          <Image src="/tag.png" width={50} height={50} className='absolute top-[-10px] mt-auto w-full opacity-20 rounded-xl' />
+          <Image src="/tag.png" width={500} height={500} className='absolute top-[-10px] mt-auto w-full opacity-15 rounded-xl' />
 
         </div>
       </div>
