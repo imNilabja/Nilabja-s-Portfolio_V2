@@ -7,7 +7,7 @@ const main_pageContent = () => {
       <div className='w-[600px] mr-auto h-[400px] ml-auto relative flex-col justify-center'>
 
 
-        <div className=' text-white font-semibold text-4xl relative ml-auto mr-auto top-40 p-2 mt-5 italic font-serif z-50'>Hi, I am Nilabja
+        <div className=' text-white font-semibold text-4xl relative left-1 ml-auto mr-auto top-40 p-2 mt-5 italic font-serif z-50'>Hi, I am Nilabja
           <br></br>
           <div className='text-xl font-thin'>A Software Engineer</div>
         </div>
