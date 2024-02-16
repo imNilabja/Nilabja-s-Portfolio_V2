@@ -35,7 +35,7 @@ const page = () => {
 
         </form>
 
-        <div className=' text-white font-semibold ml-auto mr-auto text-2xl min-w-[20px] max-w-[900px] min-h-[50px] py-3 px-4 rounded-[20px] relative top-[300px] mb-12 justify-evenly'>
+        <div className=' text-white font-semibold ml-auto mr-auto text-2xl min-w-[20px] max-w-[900px] min-h-[50px] py-3 px-4 rounded-[20px] relative left-[-10px] top-[300px] mb-12 justify-evenly'>
           {/* // */}
 
           <a href='https://www.linkedin.com/in/nilabjagoswami23/' target='_blank'>
