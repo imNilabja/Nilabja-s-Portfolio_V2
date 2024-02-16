@@ -12,7 +12,7 @@ const page = () => {
 
         <Header />
 
-        <p className='text-white font-semibold font-mono w-14 text-4xl left-[-40px] ml-auto mr-auto top-[50px] relative'>CONTACT</p>
+        <p className='text-white font-semibold font-mono w-14 text-4xl left-[-50px] ml-auto mr-auto top-[50px] relative'>CONTACT</p>
 
 
 
