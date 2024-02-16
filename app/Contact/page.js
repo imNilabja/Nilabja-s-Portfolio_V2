@@ -7,7 +7,7 @@ const page = () => {
   return (
     <>
 
-      <div className='bg-gray-800 w-screen h-screen'>
+      <div className='bg-gray-800 relative min-h-screen min-w-screen flex flex-col pb-[300px] pr-1 justify-center overflow-hidden'>
 
         <Header />
 
@@ -24,17 +24,18 @@ const page = () => {
             <input type='text' placeholder='ENTER YOUR EMAIL' className='italic text-sm text-white thin min-w-[300px] max-w-[500px] bg-gray-800 border-2 border-yellow-500 rounded-[20px] p-2 ml-auto mr-auto mt-5 mb-5'></input>
           </div>
           <div className='flex justify-center ml-auto mr-auto '>
-          <textarea placeholder='ENTER YOUR MESSAGE' className='italic text-sm text-white thin min-w-[300px] max-w-[500px] bg-gray-800 border-2 border-yellow-500 rounded-[20px] p-2 ml-auto mr-auto mt-5 mb-5'></textarea>  
+            <textarea placeholder='ENTER YOUR MESSAGE' className='italic text-sm text-white thin min-w-[300px] max-w-[500px] bg-gray-800 border-2 border-yellow-500 rounded-[20px] p-2 ml-auto mr-auto mt-5 mb-5'></textarea>
           </div>
           <div className='flex justify-center ml-auto mr-auto relative top-[20px] '>
-          <button className='border border-black rounded-[20px] px-8 py-2 text-white font-bold bg-yellow-600'>View Report</button>
+            <button className='border border-black rounded-[20px] px-8 py-2 text-white font-bold bg-yellow-600'>SUBMIT</button>
           </div>
+
 
         </form>
 
-
+        <Footer />
       </div>
-   <Footer/>
+
     </>
   )
 }
