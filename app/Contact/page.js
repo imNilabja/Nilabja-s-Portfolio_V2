@@ -2,19 +2,40 @@
 
 import React from 'react'
 import Header from '@/Components/Header'
+import Footer from '@/Components/footer'
 const page = () => {
   return (
     <>
-      
-    <div className='bg-gray-800 w-screen h-screen'>
 
-      <Header/>
-   
-      <p className='text-white font-semibold font-mono w-14 text-4xl left-[-40px] ml-auto mr-auto top-[50px] relative'>CONTACT</p>
+      <div className='bg-gray-800 w-screen h-screen'>
 
-    </div>
-    
-  </>
+        <Header />
+
+        <p className='text-white font-semibold font-mono w-14 text-4xl left-[-40px] ml-auto mr-auto top-[50px] relative'>CONTACT</p>
+
+
+
+
+        <form className='flex-col dire justify-evenly relative max-w-[550px] min-h-[100px] ml-auto mr-auto top-28'>
+          <div className='flex justify-center ml-auto mr-auto '>
+            <input type='text' placeholder='ENTER NAME' className='italic text-sm text-white thin min-w-[300px] max-w-[500px] bg-gray-800 border-2 border-yellow-500 rounded-[20px] p-2 ml-auto mr-auto mt-5 mb-5'></input>
+          </div>
+          <div className='flex justify-center ml-auto mr-auto '>
+            <input type='text' placeholder='ENTER YOUR EMAIL' className='italic text-sm text-white thin min-w-[300px] max-w-[500px] bg-gray-800 border-2 border-yellow-500 rounded-[20px] p-2 ml-auto mr-auto mt-5 mb-5'></input>
+          </div>
+          <div className='flex justify-center ml-auto mr-auto '>
+          <textarea placeholder='ENTER YOUR MESSAGE' className='italic text-sm text-white thin min-w-[300px] max-w-[500px] bg-gray-800 border-2 border-yellow-500 rounded-[20px] p-2 ml-auto mr-auto mt-5 mb-5'></textarea>  
+          </div>
+          <div className='flex justify-center ml-auto mr-auto relative top-[20px] '>
+          <button className='border border-black rounded-[20px] px-8 py-2 text-white font-bold bg-yellow-600'>View Report</button>
+          </div>
+
+        </form>
+
+
+      </div>
+   <Footer/>
+    </>
   )
 }
 
